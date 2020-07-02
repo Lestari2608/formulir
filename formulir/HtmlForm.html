@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiale-scale=1">
+    <title>form pendaftaran</title>
+    <link rel="stylesheet" href="color.css">
+    <style>
+        *{
+            background-image: url(image/66.JPEG) repeat;
+        }
+    </style>
+
+</head>
+<header>
+    <div class="jumbotron">
+        <h1>Selamat Datang Di Pendaftaran Mahasiswa Baru</h1>
+        <h2>UNIVERSITAS NAHDLATUL ULAMA BLITAR</h2>
+
+    </div>
+    <nav>
+        <ul>
+
+            <li> <a href="#profil">Profil UNU Blitar</a></li>
+            <li> <a href="#pendaftaran">Pendaftaran</a></li>
+            <li> <a href="#biaya">Biaya Kuliah</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+    <main>
+        <article id="content" class="card">
+            <div id="content">
+        
+            <h3 id="profil"><u><i>Profil UNU Blitar</i></u></h3>
+            <img src="image/download.jpg">
+                <p><i>Universitas Nahdlatul Ulama Blitar yang disingkat UNU Blitar merupakan wujud dari cita-cita LPTNU Kabupaten Blitar periode 2013-2018. Berbagai upaya untuk mewujudkan salah satu program unggulannya yaitu mendirikan perguruan tinggi dibawah naungan Nahdlatul Ulama terus dilakukan. Pada momen Muktamar Nahdlatul Ulama ke-33 yang dilaksanakan di Jombang Jawa Timur pada tahun 2015, dilakukan konsolidasi. Pertemuan singkat Tim LPTNU Kabupaten Blitar bersama LPTNU Pusat membahas tentang niat pendirian Perguruan Tinggi NU di Kabupaten Blitar. Petunjuk dan dukungan disampaikan pula oleh Dr.Nasir, M.Pd (Rektor UNU Lampung) yang merupakan UNU yang baru diresmikan tahun 2015. Hasil dari pertemuan tersebut, dimusyawarahkan dan disepakati mendirikan “Universitas Nahdlatul Ulama Blitar” awalnya disingkat UNUTAR, namun selanjutnya diubah menjadi “UNU Blitar”. Selanjutnya menentukan program studi dan penyusunan borang prodi baru. Proses dilakukan baik uploud online, penyiapan dokumen dan visitasi oleh BANPT. Penguatan Tim Pendiri dan Dosen juga dilakukan melalui Workshop dengan menghadirkan Narasumber Dr. H.A.Hanief Saha Ghofur, M.A. (LPTNU Pusat). Alhamdulillah, memalui proses yang panjang dan kerja keras para Tim UNU Blitar berhasil didirikan di Kabupaten Blitar. Pendirian UNU Blitar didasari oleh Surat Izin Operasional yang diterbitkan Kementerian Pendidikan Tinggi No.302/KPT/I/2016 tanggal 31 Agustus 2016. Berdasarkan Surat izin operasional tersebut UNU Blitar dapat menyelenggarakan program pendidikan sejumlah 10 program studi (prodi) stata satu (S1). Prodi-prodi tersebut meliputi Pendidikan Guru Sekolah Dasar (PGSD), Pendidikan Olahraga, Pendidikan Bahasa Indonesia, Pendidikan Bahasa Inggris, Matematika, Fisika, Teknik Mesin, Teknik Sipil, Ilmu Komputer dan Peternakan. Launching UNU Blitar, diselenggarakan di Pendopo Kabupaten Blitar “Ronggo Hadi Negoro” atas izin Bupati Blitar yaitu Bapak H. Riyanto, M.M. Acara tersebut diselenggarakan pada tanggal 29 Oktober 2016 dihadiri oleh Kemenristekdik, Prof. H. Mohamad Nasir, Ph.D., Ak.</i></p>
+            </div>
+            </article>
+    <article id="content" class="card">
+        <div id="content">
+            <u><i>
+                    <h3 id="pendaftaran">Formulir Pendaftaran</h3>
+                </i></u>
+            <br>
+
+            <form action="proses.php" method="get">
+                <label for="fname">Nama:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="alamat">Alamat :</label><br>
+                <input type="text" id="alamat" name="alamat"><br><br>
+                <br>
+
+                <label for="tempat">Tempat Lahir:</label><br>
+                <td colspan="2">
+                    <select name="tempat">
+                        <option value=Blitar>Blitar
+                        <option value=Malang>Malang
+                        <option value=Bogor>Bogor
+                    </select>
+
+                </td><br><br>
+                <label for="tgl">Tanggal Lahir:</label><br>
+                <input type="date" id="tgl" name="tgl">
+
+                <br><br>
+
+                <tr>
+                    <td>Jenis Kelamin </td>
+                    <td> : </td><br>
+                    <td> </td>
+                    <td><input type="radio" name="gendor" value="Male" />Male</td> <br>
+                </tr>
+                <tr>
+
+                    <td> </td>
+
+                <tr></tr>
+                <td> </td>
+                <td><input type="radio" name="gendor" value="Female" />Female</td>
+                </tr><br><br><br>
+                <label for="web">Alamat Web:</label><br>
+                <input type="text" id="web" name="web" value="http://"><br><br>
+                <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" autocomplete="off"><br><br>
+                <label for="hp">No.hp:</label><br>
+                <input type="text" id="hp" name="hp"><br><br>
+                <tr>
+                    <label for="files">Nilai Ijazah:</label><br><br>
+                    <input type="file" id="files" name="files" multiple><br><br><br>
+
+                    <td><input type="Submit" value="Daftar">
+                        <input type="reset" value="Reset"></td>
+                </tr>
+        </div>
+      </article>
+      <article id="content" class="card">
+        <div id="content">
+            <h3 id="biaya"><u><i>Biaya Kuliah</i></u></h3>
+            <table >
+                <tr>
+                    <th>N0</th>
+                    <th>Prodi</th>
+                    <th>SPP Perbulan</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>PGSD</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pend.Olahraga</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pend.Bahasa Indonesia</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pend.Bahasa Inggris</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Fisika</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Matematika</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Teknik Sipil</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Teknik Mesin</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Ilmu Komputer</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Peternakan</td>
+                    <td>Rp.150.000,00</td>
+                </tr>
+            </table>
+        </div>
+        </article>
+     </main>
+  
+</body>  
+</html>
